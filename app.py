@@ -63,4 +63,25 @@ if st.button("Predict Disease"):
     st.success(f"Predicted Disease: **{pred_disease}**")
 
 
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    </style>
 
+    <div class="footer">
+        Developed by Yash Bhardwaj
+    </div>
+    """,
+    unsafe_allow_html=True
+)
