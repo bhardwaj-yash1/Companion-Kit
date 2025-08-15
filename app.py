@@ -61,3 +61,6 @@ if st.button("Predict Disease"):
     pred_disease = le_labels.inverse_transform([pred_encoded])[0]
 
     st.success(f"Predicted Disease: **{pred_disease}**")
+
+
+
